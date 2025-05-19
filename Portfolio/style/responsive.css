@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {
+
+    .sobre .container,
+    .habilidade .container,
+    .projeto .container {
+        padding: 0 5%;
+    }
+
+    .parts-habilidade {
+        width: 20%;
+    }
+
+    .parts-projeto {
+        width: 30%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    header .container {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .sobre .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-left,
+    .sobre-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-right {
+        margin-top: 2rem;
+    }
+
+    #foto {
+        width: 50vw;
+    }
+
+    .infos-sobre {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .parts-habilidade {
+        width: 25%;
+    }
+
+    .infos-projeto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parts-projeto {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .parts-habilidade {
+        width: 40%;
+        margin-bottom: 2vh;
+    }
+
+    .texto-habilidade,
+    .texto-sobre {
+        font-size: 1rem;
+    }
+
+    .texto-projeto {
+        font-size: 0.95rem;
+    }
+
+    #projeto-titulo {
+        font-size: 1.8rem;
+    }
+
+    .titulo-projeto {
+        font-size: 1.4rem;
+    }
+
+    .btn-projeto {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .img-sobre {
+        width: 60%;
+    }
+
+    .parts-habilidade {
+        width: 80%;
+    }
+
+    .parts-projeto {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .btn-projeto {
+        font-size: 0.9rem;
+    }
+
+    footer .container {
+        flex-direction: column;
+        height: auto;
+        padding: 2vh;
+    }
+
+
+
+}
