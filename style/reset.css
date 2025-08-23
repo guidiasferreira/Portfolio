@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+}
+
+:root {
+    --cor-fundo: #080808;
+    --cor-secundaria: #101010;
+    --cor-texto: #ffffff;
+    --cor-primaria: #0674f6;
+    --cor-borda: #181919;
+    --fonte-principal: "Poppins", serif;
+}
