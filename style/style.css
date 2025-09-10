@@ -107,17 +107,16 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 310px;
-    height: 310px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.783);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.708);
-
+    width: 333px;
+    height: 333px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.587);
 }
 
 #foto {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center 20%;
