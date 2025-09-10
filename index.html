@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="shortcut icon" href="./img/faviIcon.png" type="image/x-icon">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Guilherme <span>Ferreira</span></h1>
+            <nav class="nav">
+                <button class="btn-hamburguer"></button>
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <div class="conteudo-sobre">
+                    <h2>Sobre <span>mim</span></h2>
+                    <p class="texto">Muito prazer, meu nome é Guilherme Dias Ferreira. Atualmente, tenho 19 anos e moro
+                        na cidade de Viradouro – SP. Concluí o Ensino Médio na Etec de Bebedouro, onde também obtive
+                        formação técnica em Informática para Internet.
+
+                        Minha paixão por tecnologia e inovação me levou a ingressar no curso de Big Data na Fatec de
+                        Bebedouro, onde sigo aprofundando meus conhecimentos. Durante minha trajetória acadêmica,
+                        desenvolvi projetos utilizando Arduino e programação orientada a objetos em Java e C#.
+                        Tenho grande interesse nas áreas de ciência de dados, automação e novas tecnologias, e estou
+                        sempre em busca de novos aprendizados e desafios que contribuam para o meu crescimento
+                        profissional..</p>
+
+                    <div class="abilities">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'skills')">Skills</button>
+                            <button class="tablinks" onclick="openCity(event, 'experience')">Experience</button>
+                            <button class="tablinks" onclick="openCity(event, 'education')">Education</button>
+                        </div>
+
+                        <div id="skills" class="tabcontent">
+                            <div class="parts-skills">
+                                <h3 class="title-skills">Linguagens</h3>
+                                <p class="text-skills">HTML, CSS, JavaScript, Sass, Java, C# e Python.</p>
+                            </div>
+
+                            <div class="parts-skills">
+                                <h3 class="title-skills">Tecnologias e Ferramentas </h3>
+                                <p class="text-skills">Excel, Word, Canva, Visual Studio Code, Visual Studio, Git e
+                                    GitHub.</p>
+                            </div>
+
+                            <div class="parts-skills">
+                                <h3 class="title-skills">Databases</h3>
+                                <p class="text-skills">MySQL.</p>
+                            </div>
+                        </div>
+
+                        <div id="experience" class="tabcontent">
+                            <div class="parts-skills">
+                                <h3 class="title-skills">Experiência</h3>
+                                <p class="text-skills">Como Atendente Comercial, fui responsável por atender clientes
+                                    tanto no
+                                    meio presencial quanto no online, utilizando alguns softwares, incluindo o
+                                    “Opa! Suite” e “IxC Soft”. Além disso, fui encarregado de organizar o
+                                    marketing da empresa, principalmente criando Feeds, Stories e Reels
+                                    para o Instagram e Facebook, assim atraindo novos clientes.</p>
+                            </div>
+                        </div>
+
+
+                        <div id="education" class="tabcontent">
+                            <div class="parts-skills" id="educar">
+                                <div class="estudo">
+                                    <h3 class="title-skills">2024 - Fatec Bebedouro</h3>
+                                    <p class="text-skills">Graduando em Big Data no Agronegócio - 4º Semestre -
+                                        Faculdade de
+                                        Tecnologia
+                                        “Jorge Caram Sabbag”.</p>
+                                </div>
+
+                                <div class="estudo">
+                                    <h3 class="title-skills">2023 - Etec Bebedouro</h3>
+                                    <p class="text-skills">Formado em Técnico em Informática para Internet - Escola
+                                        Técnica
+                                        Estadual
+                                        Professor Idio Zuchi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="download">
+                        <a href="./files/Currículo_Guilherme_Dias_Ferreira.pdf" download class="btn-download">Download
+                            Curriculum</a>
+                    </div>
+                </div>
+
+                <figure>
+                    <div class="figure-rotate">
+                        <img id="foto" src="./img/foto.png" alt="Minha Foto" draggable="false">
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <section id="projeto">
+            <div class="container">
+                <h2 id="projeto-titulo">Projetos</h2>
+                <div class="infos-projeto">
+                    <div class="parts-projeto">
+                        <img src="./img/projeto1.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Calculadora</h2>
+                        <p class="texto">Esse projeto consiste em fazer uma calculadora que realiza as operações
+                            matemáticas básicas, como
+                            a adição, subtração, multiplicação e divisão. Nele, utilizei HTML, CSS e JavaScript.</p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/calculadoraJS" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="parts-projeto">
+                        <img src="./img/projeto2.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Sistema de Xadrez</h2>
+                        <p class="texto">Sistema feito em C#, utilizando a plataforma .NET, com o objetivo de criar um
+                            jogo de xadrez, colocando em prática os conteúdos aprendidos durante o curso de C# Orientado
+                            a objetos.</p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/SistemaXadrez" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="parts-projeto">
+                        <img src="./img/projeto3.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Portal de Notícia</h2>
+                        <p class="texto">Website com foco em apresentar as principais notícias da semana. Foi
+                            montando utilizando HTML, CSS e JavaScript, com foco em aplicar conhecimentos de css
+                            flexível.
+                        </p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/PortalNoticia" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="parts-projeto">
+                        <img src="./img/projeto4.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Calculadora Imc</h2>
+                        <p class="texto">Projeto voltado para aplicar conhecimentos básicos de Front-End,
+                            treinando principalmente a lógica utilizada na aplicação do JavaScript com o restante da
+                            página.</p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/CalculadoraImc" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="parts-projeto">
+                        <img src="./img/projeto5.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Contador</h2>
+                        <p class="texto">Website com o propósito de realizar a operação de incrementar,
+                            decrementar e anular um número, conforme o usuário apertar no botão.</p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/Counter" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="parts-projeto">
+                        <img src="./img/projeto6.png" alt="" class="projetoImg">
+                        <h2 class="titulo-projeto">Página de Login</h2>
+                        <p class="texto">Projeto baseado em uma página de login, com campos de nome, email e
+                            senha, além da opção de logar com as redes sociais.</p>
+
+                        <div class="button-projeto">
+                            <a href="https://github.com/guidiasferreira/Login" target="_blank">
+                                <button type="submit" class="btn-projeto">Ver Projeto</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2 id="title-contato">Entre em contato</h2>
+
+                <div class="social-networks">
+                    <div class="parts-network">
+                        <a href="https://www.linkedin.com/in/guilhermediasferreira/" target="_blank"><img
+                                src="./img/iconizer-icons8-linkedin.svg" alt="LinkedIn" class="icons-network"></a>
+                    </div>
+
+                    <div class="parts-network">
+                        <a href="https://www.instagram.com/guifee/" target="_blank"><img
+                                src="./img/iconizer-icons8-instagram.svg" alt="Instagram" class="icons-network"></a>
+                    </div>
+
+                    <div class="parts-network">
+                        <a href="https://github.com/guidiasferreira" target="_blank"><img
+                                src="./img/iconizer-icons8-github.svg" alt="GitHub" class="icons-network" id="git"></a>
+                    </div>
+
+                    <div class="parts-network">
+                        <a href="https://x.com/GuilhermeD66889" target="_blank"><img
+                                src="./img/iconizer-icons8-twitterx.svg" alt="X" class="icons-network"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>Copyright &copy; 2025 Guilherme Dias Ferreira</h3>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+
+</html>
